@@ -1,0 +1,347 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+#blockpage{
+  display: flex;
+  font-family: Arial, Verdana, sans-serif ;
+}
+
+ul li{
+  word-break: break-word;
+}
+ 
+li{
+  color: #feca07;
+}
+
+.black, .blackbold{
+  color: black;
+}
+
+.blackbold{
+  font-weight: bold;
+} 
+
+#lisere {
+  background-color: #feca07;
+  min-height: 100vh;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#picture{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3vh;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0,0,0, 0.3); 
+}
+
+.titlelisere{
+  background-color: #404040;
+  color: #feca07;
+  text-align : center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+i{
+  color: #404040;
+  margin-right: 1em;
+}
+
+#contact{
+  margin: 0vh 2vh 0vh 2vh;
+  list-style-type: none;
+}
+
+#codepostal{
+  margin-left: 6vh;
+}
+
+#tel{
+  margin-left: 0.5em;
+}
+
+.contactlist{
+  margin: 1.5vh 0vh 1.5vh 0vh;
+}
+
+#aboutme{
+    margin: 0vh 2vh 0vh 2vh;
+   }
+
+#hobbies{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#hobbies > li{
+list-style-type: none;
+margin-bottom: 2vh;
+}
+
+#contents{
+  flex: 3;
+  margin-left: 10vh;
+}
+
+h1{
+  font-weight: normal;
+  font-size: 10vh;
+  margin-top: 3vh;
+}
+
+#namecolor{
+  color: #feca07;
+}
+
+header{
+  font-size: 5vh;
+  margin-bottom: 5vh;
+}
+
+#titleunderline{
+  text-decoration: underline #feca07;
+}
+
+.titlecontents{
+  font-weight: bold;
+  margin: 3vh 0vh 1.5vh 0vh;
+}
+
+.fa-graduation-cap{
+  color: #feca07;
+}
+
+.fa-briefcase{
+  color: #feca07;
+}
+
+.fa-pencil-alt{
+  color: #feca07;
+}
+
+hr{
+  height: 2px; 
+  color: #feca07; 
+  background-color: #feca07; 
+  width: 90%; 
+  border: none;
+  margin-bottom: 4vh; 
+}
+
+.study{
+  display: flex;
+  margin: 2vh 0vh 2vh 0vh;
+}
+
+#studydate{
+  min-width: 45vh;
+}
+
+#studycontent{
+justify-content: start;
+}
+
+#studydate2{
+  min-width: 45vh;
+  list-style-type: circle;
+}
+
+#studycontent2{
+  justify-content: start;
+  list-style-type: circle;  
+  }
+  
+
+.exp{
+  display: flex;
+  margin: 2vh 0vh 2vh 0vh;
+}
+
+#expdate{
+  min-width: 45vh; 
+}
+
+#expcontent{
+  justify-content: start;
+}
+
+.expdate2{
+  min-width: 45vh; 
+  list-style-type: circle;
+}
+
+.expcontent2{
+  justify-content: start;
+  list-style-type: circle;
+}
+
+#ref{
+  display: flex;
+  justify-content: space-around;
+}
+
+#ref1{
+  list-style: none;
+}
+
+#ref2{
+  list-style: none;
+}
+
+.puceless{
+  list-style-type: none;
+}
+
+@media screen and (max-width: 1380px)
+{ 
+
+  #studydate{
+    min-width: 25vh;
+  }
+
+  #studydate2{
+    min-width: 25vh;
+  }
+
+  #expdate{
+    min-width: 25vh; 
+  }
+
+  .expdate2{
+    min-width: 25vh; 
+  }
+
+  #contact{
+    min-width: 25vh;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 1100px)
+{
+  #blockpage{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  #lisere{
+    margin-top: 5vh;
+    min-height: 0vh;
+  }
+
+  #contents{
+    flex: 3;
+    margin-left: 7vh;
+  }
+  #hobbies{
+    margin-bottom: 5vh;
+  }
+
+  #contact{
+    width: 20vh;
+    margin: auto;
+  }
+
+}
+
+@media screen and (max-width: 860px)
+{
+
+  #contents{
+    flex: 3;
+    margin-left: 5vh;
+  }
+
+   .study{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #studycontent{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+  }
+
+  #studycontent2{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+  }
+
+  .exp{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #expcontent{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+  }
+
+  .expcontent2{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+  }
+
+  #ref{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #ref1{
+    width: 50%;
+    margin: auto;
+    margin-top: 2vh;
+  }
+
+  #ref2{
+    width: 50%;
+    margin: auto;
+    margin-top: 2vh;
+  }
+
+  h1{
+    font-weight: normal;
+    font-size: 6vh;
+    margin-top: 3vh;
+  }
+
+  header{
+    font-size: 3vh;
+    margin-bottom: 5vh;
+  }
+
+  #studydate{
+    width: 20%;  
+  }
+
+  #studydate2{
+    width: 50%;
+  }
+  
+  ul{
+    max-width: 500%;
+  }
+
+  #contact{
+    width: 20vh;
+    margin: auto;
+  }
+
+}
+
