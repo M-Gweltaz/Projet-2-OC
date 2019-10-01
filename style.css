@@ -245,12 +245,13 @@ justify-content: start;
     flex: 3;
     margin-left: 7vh;
   }
+
   #hobbies{
     margin-bottom: 5vh;
   }
 
   #contact{
-    width: 20vh;
+    width: 15em;
     margin: auto;
   }
 
@@ -339,7 +340,7 @@ justify-content: start;
   }
 
   #contact{
-    width: 20vh;
+    width: 50 vh;
     margin: auto;
   }
 
